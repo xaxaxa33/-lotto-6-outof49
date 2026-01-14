@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Losowanie 6 z 49</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>Wpisz 6 liczb (1-49)</h1>
+    
+    <form id="lottoForm">
+      <div>
+        <label for="num1">Liczba 1:</label>
+        <input id="num1" type="number" min="1" max="49" required />
+      </div>
+      <div>
+        <label for="num2">Liczba 2:</label>
+        <input id="num2" type="number" min="1" max="49" required />
+      </div>
+      <div>
+        <label for="num3">Liczba 3:</label>
+        <input id="num3" type="number" min="1" max="49" required />
+      </div>
+      <div>
+        <label for="num4">Liczba 4:</label>
+        <input id="num4" type="number" min="1" max="49" required />
+      </div>
+      <div>
+        <label for="num5">Liczba 5:</label>
+        <input id="num5" type="number" min="1" max="49" required />
+      </div>
+      <div>
+        <label for="num6">Liczba 6:</label>
+        <input id="num6" type="number" min="1" max="49" required />
+      </div>
+      
+      <div style="margin-top: 1rem">
+        <button type="submit">Losuj i sprawdź</button>
+        <button type="reset">Wyczyść</button>
+      </div>
+    </form>
+   
+    <div id="result"></div>
+    
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
